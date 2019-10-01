@@ -19,6 +19,9 @@ DEPENDENCIES = [
     "requests==2.2.0",
     "vcrpy==2.1.0",
     "pytest==5.1.0",
+    "pandas",
+    "numpy",
+    "oauth2",
 ]
 EXCLUDE_FROM_PACKAGES = ["contrib", "docs", "tests*"]
 CURDIR = os.path.abspath(os.path.dirname(__file__))
